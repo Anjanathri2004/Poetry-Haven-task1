@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Haven, Inc.</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Poetry Haven, Inc.</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Poetry Collections</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="auth-buttons">
+            <button onclick="logIn()">Log In</button>
+            <button onclick="createAccount()">Create Account</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Favorite Poets</h1>
+            <input type="text" placeholder="Search Poet" id="search-poet">
+            <button onclick="subscribe()">Subscribe Now</button>
+        </div>
+    </section>
+
+    <!-- Featured Poets & Collections -->
+    <section class="featured">
+        <h2>Featured Poets & Collections</h2>
+        <div class="carousel">
+            <!-- Add carousel content here -->
+            <div class="carousel-item">Poet 1</div>
+            <div class="carousel-item">Poet 2</div>
+            <div class="carousel-item">Poet 3</div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="newsletter">
+                <h3>Sign Up for Our Newsletter</h3>
+                <input type="email" placeholder="Your Email">
+                <button>Subscribe</button>
+            </div>
+            <div class="quick-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
